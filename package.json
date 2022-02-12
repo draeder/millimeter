@@ -1,7 +1,7 @@
 {
   "name": "millimeter",
   "version": "1.0.0",
-  "description": "A browser shipped with built-in decentralization bootstrap servers",
+  "description": "A browser experiment shipped with a built-in Gun DB relay server",
   "main": "index.js",
   "scripts": {
     "test": "electron .",
