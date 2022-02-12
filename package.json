@@ -1,0 +1,25 @@
+{
+  "name": "millimeter",
+  "version": "1.0.0",
+  "description": "A browser shipped with built-in decentralization bootstrap servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draeder/millimeter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/draeder/millimeter/issues"
+  },
+  "homepage": "https://github.com/draeder/millimeter#readme",
+  "dependencies": {
+    "electron": "^17.0.0",
+    "gun": "^0.2020.1235",
+    "qwant-api": "^0.5.0"
+  }
+}

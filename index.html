@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Millimeter</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="navigator.js"></script>
+</head>
+<body>
+  <section class="section">
+    <h1 class="title">Millimeter</h1>
+    <h2 class="subtitle">A GUN DB Browser experiment</h2>
+    <input type="text" id="navigator" style="width:100%" placeholder="Enter a URL or keywords to search . . . "/>
+    <p id="p"></p>
+  </section>
+</body>
+<script>
+let nav = document.getElementById('navigator')
+document.addEventListener('keyup', (ev)=>{
+  if(ev.code == 'Enter'){
+    try{
+      let url = new URL(nav.value)
+      if(url) window.location.replace(nav.value)
+    }
+    catch{
+      window.location.replace(`https://duckduckgo.com/?q=${nav.value}&t=h_&ia=web`)
+    }
+  }
+})
+</script>
+</html>
