@@ -9,18 +9,12 @@ const Gun = require('gun')
 let gun = new Gun({web: 
   server.createServer(function (req, res) {
     let filePath = '.' + req.url
-    let items = filePath.split('/')
     if (filePath == './'){
       filePath = './index.html'
     }  
     if(filePath == './gun'){
-      filePath = './node_modules/gun/examples/index.html'
-    } else
-    if(items[0] == 'gun' && items[1]){
-      items.shift()
-      items.join('/')
-      filePath = './node_modules' + req.url
-    }
+      filePath = './node_modules/gun/examples/basic/paste.html'
+    } 
   
     let extname = path.extname(filePath)
     let contentType = 'text/html'
