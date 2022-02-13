@@ -14,7 +14,7 @@ If you don't know what Gun is, see http://gun.eco. In short, it is an open sourc
 1. Clone this repo
 2. `> npm install`
 3. `> npm start`
-4. Browse to http://localhost:30210/gun in Millimeter and another browser, click on the link and start typing. Millimeter is relaying the data between itself and the other browser!
+4. Browse to http://localhost:30210/gun in Millimeter and another browser and start typing. Millimeter is relaying the data between itself and the other browser!
 
 ## Much TODO
 - Add a bittorrent-tracker server
