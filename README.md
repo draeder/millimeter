@@ -1,7 +1,7 @@
 # millimeter
 > A browser experiment shipped with a built-in Gun DB relay server
 
-This is currently a work in progress. 
+This is currently a work in progress. The current push is not working correctly. I am reworking how `BrowserWindow` and `BrowserView` renders content with a focus on electron's `ipc`.
 
 I built it in a few hours on a lazy Saturday as a proof of concept, but it has a lot of potential. For example, if it became popular enough, and with NAT hole punching, perhaps by leveraging webtorrent, Millimeter users could be relay peers for a globally connected Gun swarm.
 
