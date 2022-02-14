@@ -6,7 +6,8 @@ I built it in a few hours on a lazy Saturday as a proof of concept, but it has a
 If you don't know what Gun is, see http://gun.eco. In short, it is an open source local-first decentralized graph database.
 
 ### Status
-This is currently a work in progress. The current push is not working correctly. I am reworking how `BrowserWindow` and `BrowserView` renders content with a focus on electron's `ipc`.
+This is currently a work in progress. 
+- The current push is not working correctly. I am reworking how `BrowserWindow` and `BrowserView` renders content with a focus on electron's `ipc`.
 
 ## Features
 - Search or visit a URL from the address bar
