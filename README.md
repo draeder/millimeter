@@ -7,7 +7,7 @@ If you don't know what Gun is, see http://gun.eco. In short, it is an open sourc
 
 ### Status
 This is currently a work in progress. 
-- The current push is not working correctly. I am reworking how `BrowserWindow` and `BrowserView` renders content with a focus on electron's `ipc`. [This version](https://github.com/draeder/millimeter/tree/28c014702fb4ebaafe2d5c36e63d34826dbe6d46) should be the working version, but is woefully insecure, using the examples folder from directly inside `node-modules`.
+- The current push is not working correctly. I am reworking how `BrowserWindow` and `BrowserView` renders content with a focus on electron's `ipc`. [This version](https://github.com/draeder/millimeter/tree/28c014702fb4ebaafe2d5c36e63d34826dbe6d46) should be the working version, but is woefully insecure, using the `gun/examples` folder from directly inside `node-modules`.
 
 ## Features
 - Search or visit a URL from the address bar
